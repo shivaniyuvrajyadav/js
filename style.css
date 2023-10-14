@@ -5,6 +5,8 @@ html,body{
 
 h1{
     color: red;
+    font-size: 70px;
+    font-weight: 800;
     
 }
 #bulb{

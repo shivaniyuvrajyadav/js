@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "alert": "^5.1.5",
     "prompt-sync": "^4.2.0"
   }
 }
