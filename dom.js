@@ -22,7 +22,11 @@
 
 // 4. Event Listener
 
-
+var a = document.querySelector("h1")
+a.innerHTML = "hey"
+a.addEventListener("click",function(){
+    
+})
 
 
 
