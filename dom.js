@@ -5,8 +5,8 @@
 // 3. Changing css
 // 4. Event Listener
 
-// 1.var a = document.querySelector("h1")
-// console.log(a)
+var a = document.querySelector("h1")
+console.log(a)
 
 // changing HTML
 
@@ -15,17 +15,19 @@
 
 // 3. Changing css
 
-// var a = document.querySelector("h1")
-// // a.innerHTML = "hello"
-// a.style.color = "green"
-// a.style.backgroundColor = "black"
+var a = document.querySelector("h1")
+// a.innerHTML = "hello"
+a.style.color = "green"
+a.style.backgroundColor = "black"
 
 // 4. Event Listener
 
 var a = document.querySelector("h1")
 a.innerHTML = "hey"
 a.addEventListener("click",function(){
-    
+  a.innerHTML = "pink black "
+  a.style.color= "yellow"
+  a.style.backgroundColor = "#000"
 })
 
 
